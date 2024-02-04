@@ -1,0 +1,701 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: calibri;
+    background-color: gray;
+}
+
+.Banner{
+    display: flex;
+    justify-content: right;
+    
+    color: white;
+    background-color: black;
+
+    font-family: consola;
+    font-size: 25px;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    border: solid 0px white;
+}
+
+.contenedor1{
+    display: flex;
+
+    background-color: red;
+    color: white;
+
+    padding-left: 25px;
+    padding-top: 25px;
+
+    align-items: center;
+}
+
+.izquierda{
+    display: flex;
+
+    border: solid 0px green;
+
+    align-items: center;
+
+    margin-right: auto;
+    margin-left: 5px;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-right: 35px;
+
+    border: solid 0px yellow;
+
+    cursor: pointer;
+}
+
+.menu label{
+    font-size: 17px;
+
+    font-weight: bold;
+
+    font-family: calibri;
+}
+
+.ImagenLogoDelCex{
+    width: auto;
+
+    cursor: pointer;
+} 
+
+.BarradeBusqueda{
+    display: flex;
+
+    align-items: center;
+
+    margin-left: auto;
+}
+
+.BarradeBusqueda input{
+    border: solid 0px black;
+    border-radius: 15px;
+
+    font-size: 17px;
+
+    font-family: calibri;
+
+    height: 35px;
+    width: 500px;
+}
+
+.derecha{
+    display: flex;
+
+    border: solid 0px yellow;
+    
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.IniciarSesion{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    font-weight: bold;
+
+    margin-right: 55px;
+
+    cursor: pointer;
+}
+
+.IniciarSesion label{
+    font-size: 17px;
+}
+
+.Micesta{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    font-weight: bold;
+
+    margin-right: 55px;
+
+    cursor: pointer;
+}
+
+.Micesta label{
+    font-size: 17px;
+}
+
+.BotonDeVenderACex{
+    margin: auto;
+}
+
+.BotonDeVenderACex button{
+    width: 150px;
+    height: 40px;
+
+    background-color: white;
+
+    border-radius: 15px;
+    border: none;
+
+    font-size: 17px;
+
+    cursor: pointer;
+}
+
+.contenedor2{
+    display: flex;
+
+    justify-content: center;
+
+    background-color: red;
+    color: white;
+
+    padding-top: 17px;
+}
+
+.contenedor2 label{
+    margin-right: 22px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 1;
+}
+
+.contenedor3{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.contenedor3 h1{
+    font-size: 50px;
+}
+
+.Imagenesdenosotros{
+    display: flex;
+
+    border-radius: 15px;
+    border: solid 6px yellow;
+
+    padding-left: auto;
+    padding-right: auto;
+
+    align-items: center;
+}
+
+.imagenVendeConConfianza{
+    border: solid 0px brown;
+
+    display: flex;
+}
+
+.imagenVendeConConfianza img{
+    width: 85%;
+
+    margin: auto;
+}
+
+.ImagenDeDosEnColumn{
+    border: solid 0px pink;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagenVendeATuManera{
+    padding-bottom: 35px;
+}
+
+.imagenVendeATuManera img, .ImagenReseñasDelCex img{
+    width: 85%;
+}
+
+.contenedor4{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.JuegosMasVendidos{
+    display: flex;
+
+    justify-content: center;
+}
+
+div[class*="cartelnumero"]{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    border: solid 2px brown;
+    border-radius: 5px;
+
+    font-size: 22px;
+
+    margin: 20px;
+    padding: 20px;
+}
+
+.tamañotablet{
+    display: flex;
+}
+
+.ImagenVendido{
+    border: solid 0px white;
+
+    padding: 10px;
+    margin: auto;
+    padding-bottom: 10px;
+
+    width: 90%;
+}
+
+.contenedor5{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.BlogDelCex{
+    display: flex;
+
+    justify-content: center;
+}
+
+.ImagenBlocDeCex{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 10px;
+
+    border: solid 0px red;
+}
+
+.contenedorfooter{
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+    color: white;
+    border: solid 0px green;
+
+    padding: 60px 80px 60px 80px;
+    
+}
+
+.contenedor6{
+    display: flex; 
+    
+    border: solid 0px yellow;
+}
+
+.contenedormenu{
+    display: flex;
+
+    border: solid 0px pink;
+
+    flex: 75%;
+
+    margin: 15px 10px 25px 10px;
+}
+
+.contenedorCEX, .contenedorAYUDA, .contenedorLEGAL{
+    display: flex;
+    flex-direction: column;
+
+    border: solid 0px yellow;
+
+    padding-right: 175px;
+}
+
+.contenedorREDESSOCIALES{
+    display: flex;
+    flex-direction: column;
+
+    border: solid 0px brown;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    flex: 25%;
+
+    align-items: center;
+}
+
+.contenedorREDESSOCIALES label{
+    font-size: 20px;
+}
+
+.IconosDeRedesSociales{
+    border: solid 0px violet;
+
+    margin-top: 15px;
+}
+
+.IconosDeRedesSociales i{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.contenedorCEX label, .contenedorAYUDA label, .contenedorLEGAL label{
+    padding-bottom: 20px;
+
+    font-size: 18px;
+}
+
+.contenedorCEX label b, .contenedorAYUDA label b, .contenedorLEGAL label b{
+    font-size: 20px;
+
+}
+
+.contenedor7{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-bottom: 20px;
+
+    border: solid 0px red;
+}
+
+.pagos100seguroscon{
+    border: solid 0px brown;
+
+    align-items: center;
+
+    font-size: 17px;
+    line-height: 16px;
+}
+
+.imagenesdepagos{
+    display: flex;
+
+    border: solid 0px green;
+}
+
+.imagenesdepagos img{
+    margin-right: 15px;
+
+    cursor: pointer;
+
+    width: 35%;
+}
+
+.contenedor8{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    border: solid 0px green;
+}
+
+.COPYRIGHT{
+    font-size: 20px;
+}
+
+.ImagenesDeDescargarEnAppleOGooglePlay{
+    border: solid 0px red; 
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ImagenesDeDescargarEnAppleOGooglePlay img{
+    border: solid 1px white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+label:hover{
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
+/**************************** TAMAÑO TABLET ************************************/
+/**************************** TAMAÑO TABLET ************************************/
+
+@media (max-width: 1000px){
+
+    .Banner{
+        background-color: green;
+        font-size: 17px;
+
+        justify-content: center;
+    }
+
+    .contenedor1{
+        flex-direction: column;
+        justify-content: center; 
+        padding-left: auto;
+    }
+
+    .izquierda{
+        margin: 0px 0px 15px 0px; 
+    }
+
+    .menu{
+        margin-right: 200px; 
+    }
+
+    .menu label{
+        font-size: 14px;
+    }
+
+    .BarradeBusqueda{
+        margin-bottom: 20px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .BarradeBusqueda input{
+        width: 400px;
+
+        font-size: 14px;
+    }
+
+    .derecha{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .IniciarSesion label{
+        font-size: 14px;
+    }
+
+    .Micesta label{
+        font-size: 14px;
+    }
+
+    .BotonDeVenderACex label{
+        font-size: 14px;
+    }
+
+    .contenedor2 label{
+        font-size: 18px;
+    }
+
+    .contenedor3 h1{
+        font-size: 44px;
+    }
+
+    div[class*="cartelnumero"]{
+        font-size: 18px;
+    }
+
+    .JuegosMasVendidos{
+        flex-direction: column;
+    }
+
+    .BlogDelCex{
+        flex-direction: column;
+    }
+
+    .ImagenBlocDeCex{
+        width: 75%;
+    }
+
+    .contenedor6{
+        flex-direction: column;
+    }
+
+    .contenedormenu{
+        margin-bottom: 35px;
+    }
+
+    .contenedorCEX label, .contenedorAYUDA label, .contenedorLEGAL label{
+        font-size: 16px;
+    }
+
+    .contenedorCEX label b, .contenedorAYUDA label b, .contenedorLEGAL label b{
+        font-size: 18px;
+    }
+
+    .contenedorREDESSOCIALES{
+        margin-left: 0px;
+    }
+
+    .contenedorREDESSOCIALES label{
+        font-size: 18px;
+    }
+
+    .COPYRIGHT{
+        font-size: 17px;
+    }
+
+    .pagos100seguroscon{
+        font-size: 15px;
+    }
+}	
+
+
+/**************************** TAMAÑO MOVIL ************************************/
+/**************************** TAMAÑO MOVIL ************************************/
+@media screen and (max-width: 780px){
+
+    .Banner{
+        background-color: blue;
+        font-size: 14px;
+    }
+
+    .izquierda{
+        flex-direction: column;
+    }
+
+    .menu{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .ImagenLogoDelCex{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .BarradeBusqueda input{
+        width: 250px;
+
+        font-size: 12px;
+    }
+
+    .derecha{
+        flex-direction: column;
+    }
+
+    .IniciarSesion, .Micesta, .BotonDeVenderACex{
+        flex-direction: column;
+        padding-left: auto;
+        padding-right: auto;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .BotonDeVenderACex label{
+        font-size: 13px;
+    }
+
+    .contenedor2{
+        flex-direction: column;
+    }
+
+    .contenedor2 label{
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .contenedor3 h1{
+        font-size: 35px;
+    }
+
+    .Imagenesdenosotros{
+        flex-direction: column;
+    }
+
+    .imagenVendeConConfianza{
+        margin-bottom: 20px;
+    }
+
+    .imagenVendeATuManera, .ImagenReseñasDelCex{
+        flex-direction: column;
+        padding-left: 50px;
+        margin: 0px 0px 10px 0px;
+    }
+    
+
+    .tamañotablet{
+        flex-direction: column;
+    }
+
+    .contenedor6{
+        margin-bottom: 20px;
+    }
+
+    .contenedormenu{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contenedorCEX, .contenedorAYUDA, .contenedorLEGAL{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 20px;
+    }
+
+    .contenedorCEX label, .contenedorAYUDA label, .contenedorLEGAL label{
+        font-size: 14px;
+    }
+
+    .contenedorCEX label b, .contenedorAYUDA label b, .contenedorLEGAL label b{
+        font-size: 16px;
+    }
+
+    .contenedorREDESSOCIALES{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .contenedorREDESSOCIALES label{
+        font-size: 16px;
+    }
+
+    .COPYRIGHT{
+        font-size: 14px;
+    }
+
+    .contenedor8{
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+
+    .ImagenesDeDescargarEnAppleOGooglePlay img{
+        margin-left: 30px;
+
+        margin-bottom: 15px;
+    }
+}
